@@ -15,13 +15,13 @@ public class Application3 {
 		System.out.print("문자열을 입력해주세요 : ");
 		String str1 = sc.next();
 		System.out.println("str1 : " + str1);
-		sc.nextLine();
+		
 		
 		System.out.print("숫자를 입력해주세요 : ");
 		int num1 = sc.nextInt();
 		System.out.println("num1 : " + num1);
 		
-		sc.nextLine();
+		sc.nextLine();		//입력한 줄 라인을 바꿀때 사용
 		System.out.print("공백이 있는 문자열을 하나 입력해주세요 : ");
 		String str2 = sc.nextLine();
 		System.out.println("str2 : " + str2);
